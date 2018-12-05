@@ -1,0 +1,60 @@
+
+.header-color{
+	background-color:#01DFD7;
+	min-height:120px;
+
+}
+.blog-body {
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor-logo{
+	margin-top:30px;
+	
+}
+
+.logo-img {
+  width: 120px;
+}
+.contenedor-iconos{
+	margin-top:70px;
+	
+}
+.navbar-color{
+	background-color:#BDBDBD;
+	font-size:2rem;
+}
+.link-color{
+	background-color:#01DFD7;
+	margin-top:10px;
+
+}
+#columna-contenido{
+	min-height:750px;
+}
+.foto-blog{
+	width:100% ;
+	margin:5px;
+}
+
+.area-comentario{
+	min-height:60px;
+	max-height:60px;
+}
+.buscar-area{
+	min-height:50px;
+}
+.buscar-icon{
+	min-width:30px;
+	max-width:35px;
+}
+#buscar{
+	width:80%;
+}
+
+@media (max-width:776px) {
+	.right-column {
+    display: none;
+  } 
+}
