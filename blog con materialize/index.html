@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="css/estilos_personalizados.css">
+    <title>Blog de turismo</title>
+  </head>
+  <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+      <div class="row">
+	   <div class="col m2">
+	    <img class="responsive-img logo-img" src="img/logo.jpg">
+	   </div>
+	   <div class="col m10 center">
+	    <a class="btn btn-small blue lighten-3 waves-effect social-icon" href="#"><i class="material-icons">home</i>Inicio</a>
+		<a class="btn btn-small blue lighten-3 waves-effect social-icon" href="#"><i class="material-icons">add_location</i>Estuve en..</a>
+		<a class="btn btn-small blue lighten-3 waves-effect social-icon" href="#"><i class="material-icons">star</i>Mejores viajes</a>
+		<a class="btn btn-small blue lighten-3 waves-effect social-icon" href="#"><i class="material-icons">comment</i>Recomendaciones</a>
+		
+	   </div>
+	   <h3 class="left white-text">El placer de viajar</h3>
+	  </div>
+	    <div class="row">
+		  <div class="col m1 hide-on-small-only">
+		    <div class="row"> <a class="btn-floating btn-large blue lighten-3 waves-effect" href="#"><img class="social-icon" src="img/logo-facebook.svg"> </a> </div>
+			<div class="row"> <a class="btn-floating btn-large blue lighten-3 waves-effect" href="#"><img class="social-icon" src="img/logo-twitter.svg"> </a> </div>
+			<div class="row"> <a class="btn-floating btn-large blue lighten-3 waves-effect" href="#"><img class="social-icon" src="img/logo-youtube.svg"> </a> </div>
+			<div class="row"> <a class="btn-floating btn-large blue lighten-3 waves-effect" href="#"><img class="social-icon" src="img/logo-instagram.svg"> </a> </div>
+			<div class="row"> <a class="btn-floating btn-large blue lighten-3 waves-effect" href="#"><img class="social-icon" src="img/logo-pinterest.svg"> </a> </div>
+		  </div>
+		  <div class="col m11">
+		   <div class="row">
+		     <div class="col m4">
+			   <img class="responsive-img z-depth-2" src="img/turismo1.jpg">
+               <img class="responsive-img z-depth-2" src="img/turismo2.jpg">		   
+			 </div>
+			 <div class="col m4">
+			   <img class="responsive-img z-depth-2" src="img/turismo6.jpg">
+			 </div>
+			 <div class="col m4">
+			   <img class="responsive-img z-depth-2" src="img/turismo3.jpg">
+			   <img class="responsive-img z-depth-2" src="img/turismo4.jpg">
+			   <img class="responsive-img z-depth-2" src="img/turismo5.jpg">
+			 </div>
+		   </div>
+		  </div>
+		</div>
+		   <div class="row">
+		     <div class="col l10 m9 s12">
+			   <div class="row">
+			   <div class="col m12 white">
+			 
+			 <div class="row">  <h3 class="left">Arashiyama</h3> </div>
+			     <div class="row">
+				   
+			       <div class="chip">
+				   20/12/2018 <i class="material-icons">date_range</i>
+			       </div>
+			     
+				    
+			        <div class="chip">
+				      Japon <i class="material-icons">add_location</i>
+			        </div>
+			      
+			    </div>
+				   <div class="col m12">
+				     <img class="post-img left" src="img/bambu.jpg" title="bosque de bambú">
+					   
+					 
+					  <p class="flow-text">
+Arashiyama (嵐山) es un precioso destino turístico al oeste de la ciudad de Kioto, especialmente conocido por su bosque de bambú, aunque nos ofrece muchas más opciones de turismo, ocio y entretenimiento.
+
+Y para que disfrutemos al máximo de esta zona de la antigua capital japonesa, recopilamos en esta entrada algunas de las mejores cosas que ver y hacer.
+					  </p>
+					   <p class="flow-text">
+					     Pasear tranquilamente por el famoso bosque de bambú de Arashiyama, uno de los puntos clave de la visita a esta zona de la ciudad. Lo de tranquilamente, claro, dependerá del tipo de fotos que queramos hacer, porque lo normal es que esté muy lleno de gente. Desde aquí nos queda muy cerca el pequeño santuario Nanomiya, relacionado con el Gran Santuario de Ise y que alberga alguno de los festivales más importantes de la ciudad (lo podéis ver más abajo).
+					   </p>
+				   </div>
+				   
+				  </div>
+				    <div class="row">
+				    <div class="col s12 blue lighten-2" id="area-comentario">
+					 <div class="row">
+				     <h4 class="left">Deja tu comentario</h4>
+					   <form>
+					     <div class="col s12 m12">
+	                      <div class="row">
+		                   <div class="input-field col s6">
+		                    <i class="material-icons prefix">perm_identity</i>
+			                <input id="nombre" type="text" class="validate">
+			                 <label for="nombre">Nombre y apellido</label>
+		                   </div>
+						     <div class="input-field col s6">
+		                      <i class="material-icons prefix">email</i>
+			                  <input id="email" type="email" class="validate">
+			                    <label for="email" data-success="Correcto" data-error="debes completar este campo">E-mail</label>
+		                     </div>
+						   </div>
+						     <div class="row">
+			                   <div class="input-field col s6">
+							     <i class="material-icons prefix">comment</i>
+			                    <textarea id="texto" class="materialize-textarea"></textarea>
+				                <label for="texto">Texto</label>
+								  <button class="btn waves-effect waves-light blue lighten-3" type="submit" name="action">Publicar
+                                    <i class="material-icons right">send</i>
+                                  </button>
+			                   </div>
+			                 </div>
+					     </div>
+					   </form>
+					   </div>
+					  </div>
+				   </div>
+				  
+				  
+				  
+				  </div>
+			 </div>
+			 <div class="col l2 m3 s10 white" id="columna-perfil">
+			   <img class="responsive-img circle" src="img/perfil2.jpg" title="foto del autor">
+			   <h5 class="center">Perfil del autor</h5>
+			    <hr>
+				 <p class="center">
+	        Lorem ipsum dolor sit amet consectetur adipiscing elit varius, tristique porta ad a ut morbi molestie nibh dictum. Felis aliquet curae ridiculus arcu accumsan ac nulla urna, netus fusce nisl himenaeos pretium tellus montes posuere enim, nullam placerat euismod dui faucibus ornare porta. Nascetur at eros per felis luctus facilisi iaculis, habitant id nisl maecenas massa pharetra cras, sociosqu dis enim cum libero himenaeos.
+
+Vestibulum sed donec nam enim curae egestas luctus consequat mattis volutpat at.
+				 </p>
+				
+			 </div>
+		   </div>
+		   <div class="row">
+		     <div class="col l10 m9 s12">
+			   <div class="row">
+			   <div class="col m12 white">
+			 
+			 <div class="row">  <h3 class="left">Capri, la joya italiana </h3> </div>
+			     <div class="row">
+				   
+			        <div class="chip">
+				   05/11/2018 <i class="material-icons">date_range</i>
+			        </div>
+			     
+				    
+			        <div class="chip">
+				      Italia <i class="material-icons">add_location</i>
+			        </div>
+			      
+			    </div>
+				   <div class="col m12">
+				     <img class="post-img left" src="img/isla-capri.jpg" title="capri">
+					   
+					 
+					  <p class="flow-text">
+                         Italia es un país hermoso destacado por sus románticos paisajes y su deliciosa gastronomía, lleno de secretos y rincones asombrosos por descubrir. 
+					  </p>
+					   <p class="flow-text">
+					     Capri es un destino turístico reconocido globalmente y un lugar muy apreciado por la jet set internacional, pues a pesar de su modesta arquitectura, está llena de lujos; tiendas exclusivas, restaurantes costosos y muchos paparazzi.
+					   </p>
+				   </div>
+				   
+				  </div>
+				    <div class="row">
+				    <div class="col s12 blue lighten-2" id="area-comentario">
+					 <div class="row">
+				     <h4 class="left">Deja tu comentario</h4>
+					   <form>
+					     <div class="col s12 m12">
+	                      <div class="row">
+		                   <div class="input-field col s6">
+		                    <i class="material-icons prefix">perm_identity</i>
+			                <input id="nombre" type="text" class="validate">
+			                 <label for="nombre">Nombre y apellido</label>
+		                   </div>
+						     <div class="input-field col s6">
+		                      <i class="material-icons prefix">email</i>
+			                  <input id="email" type="email" class="validate">
+			                    <label for="email" data-success="Correcto" data-error="debes completar este campo">E-mail</label>
+		                     </div>
+						   </div>
+						     <div class="row">
+			                   <div class="input-field col s6">
+							     <i class="material-icons prefix">comment</i>
+			                    <textarea id="texto" class="materialize-textarea"></textarea>
+				                <label for="texto">Texto</label>
+								  <button class="btn waves-effect waves-light blue lighten-3" type="submit" name="action">Publicar
+                                    <i class="material-icons right">send</i>
+                                  </button>
+			                   </div>
+			                 </div>
+					     </div>
+					   </form>
+					   </div>
+					  </div>
+				   </div>
+				  
+				  </div>
+			 </div>
+			 <div class="col l2 m3 s10 white" id="columna-perfil">
+			   <img class="responsive-img circle" src="img/perfil3.jpg" title="foto del autor">
+			   <h5 class="center">Perfil del autor</h5>
+			    <hr>
+				 <p class="center">
+	        Lorem ipsum dolor sit amet consectetur adipiscing elit varius, tristique porta ad a ut morbi molestie nibh dictum. Felis aliquet curae ridiculus arcu accumsan ac nulla urna, netus fusce nisl himenaeos pretium tellus montes posuere enim, nullam placerat euismod dui faucibus ornare porta. Nascetur at eros per felis luctus facilisi iaculis, habitant id nisl maecenas massa pharetra cras, sociosqu dis enim cum libero himenaeos.
+
+Vestibulum sed donec nam enim curae egestas luctus consequat mattis volutpat at.
+				 </p>
+				
+			 </div>
+		   </div>
+  </body>
+</html>
